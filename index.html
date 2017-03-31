@@ -10,8 +10,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<!--<link rel="stylesheet" href="assets/css/main.css" />-->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--<link rel="stylesheet" type="text/css" href="/css/main.css">-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
@@ -20,147 +20,304 @@
 		<!-- Nav -->
 			<nav id="nav">
 				<ul class="container">
-					<li><a href="#Bio">Bio</a></li>
+					<li><a href="#top">Bio</a></li>
 					<li><a href="#Experience">Experience</a></li>
 					<li><a href="#Education">Education</a></li>
 					<li><a href="#Skills">Skills</a></li>
-					<li><a href="#Music">Music</a></li>
+					<!--<li><a href="#Music">Music</a></li>-->
 					<li><a href="#Contact">Contact</a></li>
-					<li><a href="#Contact">Resume</a></li>
+					<li><a href="Christopher Jereza - Résumé.pdf">Resume</a></li>
 				</ul>
 			</nav>
 
-		<!-- Home -->
-			<div class="wrapper style1 first">
+		<!-- BIO -->
+			<div class="wrapper style1">
 				<article class="container" id="top">
 					<div class="row">
 						<div class="4u 12u(mobile)">
-							<span class="image fit"><img src="Profile Pic 2017.jpg" alt="" /></span>
+							<span class="image fit"><img src="Images/Profile Pic 2017.jpg" alt="" /></span>
 						</div>
 						<div class="8u 12u(mobile)">
 							<header>
-								<h1>Hi. I'm <strong>Chris</strong>.</h1>
+								<h1>Hi! I'm <strong>Chris</strong>.</h1>
 							</header>
-							<p>I'm an undergraduate Computer Science major at UC Berkeley and a Salesforce Developer at
-								IPIRA.</p>
 							<p>
+                                I'm an undergraduate Computer Science major at UC Berkeley and a Salesforce Developer at
+								IPIRA.
+                            </p>
+							<p>
+                                I am an aspiring software engineer with interests in CS theory/mathematics, artificial intelligence,
+                                and "Big Data." Outside of computer science, I am a passionate musician and music enthusiast, and I'm always
+                                excited about cooking and cuisine, fitness, men's style/fashion, and playing tourist in my own home city, San Francisco.
+                            </p>
+                            <a href="#Experience" class="button big scrolly">Welcome to my personal website!</a>
 						</div>
 					</div>
 				</article>
 			</div>
 
-		<!-- Work -->
+		<!-- EXPERIENCE -->
 			<div class="wrapper style2">
 				<article id="Experience">
 					<header>
-						<h2>Experience.</h2>
+						<h2>Experience</h2>
 						<p>Here's some of the work I've done.</p>
 					</header>
 					<div class="container">
-						<section class="box style1">
-							<span class="icon featured fa-comments-o"></span>
-							<h3>Salesforce Developer | IPIRA</h3>
-							<p>In October of 2016, I started working as a Salesforce Developer and Administrator at 
-								<a href="http://ipira.berkeley.edu/">Intellectual Property and Industry Research Alliances</a> (IPIRA), 
-								which is a department that manages intellectual property data, licensing, and patents for 
-								inventions and research in Berkeley.</p>
-						</section>
-						<section class="box style1">
-							<span class="icon featured fa-camera-retro"></span>
-							<h3>User-Acceptance Tester | SFDT</h3>
-							<p>From June to August of 2015, I interned at the San Francisco Department of Technology, where
-								I worked with the development/project management team of the 
-								<a href="https://businessportal.sfgov.org/">SF Business Portal</a>.
-							 The San Francisco Business Portal is a government </p>
-						</section>
-								
+                        <div class="12u 12u(mobile)">
+    						<section class="box style1">
+        						<span class="image small"><img src="Images/ipira.JPEG" alt="" /></span>
+                                <br>
+    							<h3>Salesforce Developer | IPIRA</h3>
+    							<p>In October of 2016, I started working as a part-time Salesforce Developer and Administrator at
+    								<a href="http://ipira.berkeley.edu/">Intellectual Property and Industry Research Alliances</a> (IPIRA),
+    								which is a department that manages intellectual property data, copyrights, and patents for
+    								inventions and research in Berkeley.
+                                </p>
+                                <p>
+                                    Over the past few months, I have developed and deployed (with the help of two other developers)
+                                    an online Invention Disclosure Portal, which allows inventors to submit a web-based disclosure form and
+                                    automatically loads information and data into our Salesforce org. This involved over a thousand lines
+                                    of code on both the front end and back end, utilization of Salesforce's programming languages (e.g. Apex
+                                    and Visualforce markup) and APIs, and administration and ETL of over 12,000 user records on the Salesforce platform.
+                                    <br>
+                                    <p>
+                                        New features I have developed include:
+                                        <br>
+                                        - Shared-access privileges (allowing multiple inventors to fill out a single disclosure)
+                                        <br>
+                                        - An improved user interface, written with Salesforce’s Visualforce markup language (similar to HTML) and static CSS styling
+                                        resources
+                                        <br>
+                                        - Back-end Apex controllers that triggers workflows within the Intellectual Property department
+                                        <br>
+                                        - Automatic PDF generation
+                                        <br>
+                                        - Automated sending of custom emails (using a controller that
+                                        links inventor info to contacts in the UC Berkeley directory)
+                                    </p>
+                                </p>
+                                <p>
+                                    I am currently working on an online Software Disclosure Form specifically for developers seeking licensing and patents for their software products.
+                                </p>
+
+    						</section>
+                        </div>
+                        <div class="12u 12u(mobile)">
+    						<section class="box style1">
+                                <span class="image lessSmall"><img src="Images/SFBP.PNG" alt="" /></span>
+                                <br>
+    							<h3>User-Acceptance Tester | SFDT</h3>
+
+    							<p>
+                                    <body>From June to August of 2015, I interned at the San Francisco Department of Technology, where
+    								I worked with the development/project management team of the
+    								<a href="https://businessportal.sfgov.org/">SF Business Portal</a>.
+    							      The SF Business Portal is an online government digital service that helps local users start businesses
+    							      by providing a simple yet comprehensive step-by-step guide, as well as all the permits,
+                                       licensing, and information that new business owners needs to start and grow in the city.
+                                    <p>
+                                        I edited and tested front-end site content and design, and I also consolidated
+                                        business permit data from over 26 San Francisco city department in order to make the process of starting
+                                        a business streamlined, intuitive, and custom-tailored to each specific type of business.
+                                    </p>
+                                    <p>
+                                        On the non-technical side, this involved a LOT of flowcharts, spreadsheets, phone calls, visits to city
+                                        departments, and even a personal visit to mayor Ed Lee's main office. I loved the opportunity to participate
+                                        in the many interactions between the development teams of different city departments, between private sector
+                                        tech companies (such as Salesforce and Google) and government departments, and between locals businesses and
+                                        the City and Country of San Francisco.
+                                    </p>
+    							    </body>
+                                </p>
+    						</section>
+                        </div>
 					</div>
 				</article>
 			</div>
+
+        <!-- EDUCATION -->
+            <div class="wrapper style3">
+                <article id="Education">
+                    <header>
+                        <h2>Education</h2>
+                        <p>Here's my academic background.</p>
+                    </header>
+                    <div class="container">
+						<div class="row">
+							<div class="8u 12u(mobile)">
+								<section class="box style1">
+									<a href="#" class="image medium"><img src="Images/ucb.png" alt="" /></a>
+                                    <br>
+									<h3>University of California, Berkeley</h3>
+									<p>
+                                        June 2016 - May 2020
+                                        <br>
+                                        Undergraduate Computer Science
+                                    </p>
+								</section>
+							</div>
+							<div class="4u 12u(mobile)">
+								<section class="box style1">
+									<p>
+                                        <strong>GPA:</strong>   3.75
+                                        <br>
+                                        <strong>Major GPA:</strong>   4.0
+                                        <br>
+                                    </p>
+                                    <p>
+                                        <strong>Relevant Coursework:</strong>
+                                        <br>
+                                        Data Structures and Algorithms
+                                        <br>
+                                        Computer Architecture
+                                        <br>
+                                        Linear Algebra/Differential Equations
+                                        <br>
+                                        Discrete Math/Probability Theory
+                                        <br>
+                                        Statistics
+                                        <br>
+                                        Structure and Interpretation of Computer Programming
+                                    </p>
+								</section>
+							</div>
+						</div>
+                </article>
+            </div>
 
 		<!-- Portfolio -->
-			<div class="wrapper style3">
-				<article id="portfolio">
+			<div class="wrapper style2">
+				<article id="Skills">
 					<header>
-						<h2>Here are some of my skills.</h2>
-						<p>Proin odio consequat  sapien vestibulum consequat lorem dolore feugiat lorem ipsum dolore.</p>
+						<h2>Skills</h2>
+						<p>Here are some of the languages I've worked with.</p>
 					</header>
-					<div class="container">
+                    <div class="container">
 						<div class="row">
-							<div>
-								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-								<h3><a href="#">Feugiat aliquam</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+							<div class="3u 12u(mobile)">
+								<article class="box style2">
+									<a href="#" class="image"><img src="Images/java.png" alt="" /></a>
+									<h3><a href="#">Java</a></h3>
+									<p></p>
+								</article>
 							</div>
-							<div>
-								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-								<h3><a href="#">Feugiat aliquam</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+							<div class="3u 12u(mobile)">
+								<article class="box style2">
+									<a href="#" class="image"><img src="Images/python.png" alt="" /></a>
+									<h3><a href="#">Python</a></h3>
+									<p></p>
+								</article>
 							</div>
-							<div>
-								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-								<h3><a href="#">Feugiat aliquam</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+							<div class="3u 12u(mobile)">
+								<article class="box style2">
+									<a href="#" class="image"><img src="Images/apex.jpg" alt="" /></a>
+									<h3><a href="#">Apex</a></h3>
+									<p></p>
+								</article>
 							</div>
-							<div>
-								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-								<h3><a href="#">Feugiat aliquam</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</div>
-							<div>
-								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-								<h3><a href="#">Feugiat aliquam</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+                            <div class="3u 12u(mobile)">
+								<article class="box style2">
+									<a href="#" class="image"><img src="Images/html-css.png" alt="" /></a>
+									<h3><a href="#">HTML / CSS</a></h3>
+									<p></p>
+								</article>
 							</div>
 						</div>
 						<div class="row">
-							<div class="4u 12u(mobile)">
+							<div class="3u 12u(mobile)">
 								<article class="box style2">
-									<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-									<h3><a href="#">Tempus dolore</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
+									<a href="#" class="image"><img src="Images/c.png" alt="" /></a>
+									<h3><a href="#">C</a></h3>
+									<p></p>
 								</article>
 							</div>
-							<div class="4u 12u(mobile)">
+							<div class="3u 12u(mobile)">
 								<article class="box style2">
-									<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-									<h3><a href="#">Feugiat aliquam</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
+									<a href="#" class="image"><img src="Images/MIPS.png" alt="" /></a>
+									<h3><a href="#">MIPS Assembly Language</a></h3>
+									<p></p>
 								</article>
 							</div>
-							<div class="4u 12u(mobile)">
+							<div class="3u 12u(mobile)">
 								<article class="box style2">
-									<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-									<h3><a href="#">Sed amet ornare</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
+									<a href="#" class="image"><img src="Images/visualforce.png" alt="" /></a>
+									<h3><a href="#">Visualforce markup</a></h3>
+									<p></p>
 								</article>
 							</div>
-							<div class="4u 12u(mobile)">
+                            <div class="3u 12u(mobile)">
 								<article class="box style2">
-									<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-									<h3><a href="#">Lorem ipsum</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
-								</article>
-							</div>
-							<div class="4u 12u(mobile)">
-								<article class="box style2">
-									<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-									<h3><a href="#">Lorem ipsum</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
+									<a href="#" class="image"><img src="Images/sql.png" alt="" /></a>
+									<h3><a href="#">SQL</a></h3>
+									<p></p>
 								</article>
 							</div>
 						</div>
 					</div>
-				</article>
-			</div>
-
-		<!-- Contact -->
+                </article>
+                <article id="Skills">
+					<header>
+						<h2>Other tools</h2>
+						<p>Here are some of the tools I'm proficient with.</p>
+					</header>
+                    <div class="container">
+						<div class="row">
+							<div class="3u 12u(mobile)">
+								<article class="box style2">
+									<a href="#" class="image small"><img src="Images/git.png" alt="" /></a>
+									<h3><a href="#">Git</a></h3>
+									<p></p>
+								</article>
+							</div>
+							<div class="3u 12u(mobile)">
+								<article class="box style2">
+									<a href="#" class="image small"><img src="Images/unix.png" alt="" /></a>
+									<h3><a href="#">Unix</a></h3>
+									<p></p>
+								</article>
+							</div>
+							<div class="3u 12u(mobile)">
+								<article class="box style2">
+									<a href="#" class="image small"><img src="Images/forcecom.png" alt="" /></a>
+									<h3><a href="#">Force.com platform</a></h3>
+									<p></p>
+								</article>
+							</div>
+                            <div class="3u 12u(mobile)">
+								<article class="box style2">
+									<a href="#" class="image small"><img src="Images/dataloader.png" alt="" /></a>
+									<h3><a href="#">Salesforce Data Loader</a></h3>
+									<p></p>
+								</article>
+							</div>
+                            <div class="3u 12u(mobile)">
+								<article class="box style2">
+									<a href="#" class="image small"><img src="Images/Logisim.png" alt="" /></a>
+									<h3><a href="#">Logisim</a></h3>
+									<p></p>
+								</article>
+							</div>
+                            <div class="3u 12u(mobile)">
+								<article class="box style2">
+									<a href="#" class="image small"><img src="Images/raspbian.png" alt="" /></a>
+									<h3><a href="#">Raspbian</a></h3>
+									<p></p>
+								</article>
+							</div>
+						</div>
+					</div>
+                </article>
+            </div>
+	<!-- Contact -->
 			<div class="wrapper style4">
-				<article id="contact" class="container 75%">
+				<article id="Contact" class="container 75%">
 					<header>
 						<h2>Feel free to contact me!</h2>
 						<p>Want to talk more about my programming experience? Need a musician for an event? Just want to chat about the weather? I'll get back to you as soon as possible!</p>
-					</header>
+                        <br>
+                        <p> chrisnjereza@gmail.com</p>
+                    </header>
 					<div>
 						<div class="row">
 							<div class="12u">
@@ -201,16 +358,18 @@
 								<hr />
 								<h3>Find me on ...</h3>
 								<ul class="social">
-									<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-									<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+
+									<li><a href="https://www.facebook.com/chris.jereza" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="https://www.instagram.com/chrisjereza/" class="icon fa-instagram"><span><!--Instagram--></span></a></li>
+									<li><a href="https://www.linkedin.com/in/christopherjereza/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                                    <li><a href="https://www.github.com/christopherjereza/" class="icon fa-github"><span class="label">Github</span></a></li>
+                                    <!--
 									<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
 									<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-									<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-									<!--
+
 									<li><a href="#" class="icon fa-rss"><span>RSS</span></a></li>
-									<li><a href="#" class="icon fa-instagram"><span>Instagram</span></a></li>
+                                    <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                                    <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
 									<li><a href="#" class="icon fa-foursquare"><span>Foursquare</span></a></li>
 									<li><a href="#" class="icon fa-skype"><span>Skype</span></a></li>
 									<li><a href="#" class="icon fa-soundcloud"><span>Soundcloud</span></a></li>
@@ -218,9 +377,8 @@
 									<li><a href="#" class="icon fa-blogger"><span>Blogger</span></a></li>
 									<li><a href="#" class="icon fa-flickr"><span>Flickr</span></a></li>
 									<li><a href="#" class="icon fa-vimeo"><span>Vimeo</span></a></li>
-									-->
+                                    -->
 								</ul>
-								<hr />
 							</div>
 						</div>
 					</div>
