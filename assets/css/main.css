@@ -1332,6 +1332,16 @@
             width: 10%;
         }
 
+	.box.style2 .image.tools {
+		position: relative;
+		left: 2em;
+		top: 2em;
+		margin: -2em 0 4em 3%;
+		height: 60px;
+		width: 30%;
+		align: center;
+	}
+
         .image.lessSmall {
             display: block;
             margin: auto;
