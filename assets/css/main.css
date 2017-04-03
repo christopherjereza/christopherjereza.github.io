@@ -1320,6 +1320,12 @@
 			margin: 0 0 2em 0;
 		}
 
+	.image.smallest {
+            display: block;
+            margin: auto;
+            width: 7%;
+        }
+
         .image.small {
             display: block;
             margin: auto;
@@ -1844,15 +1850,25 @@
                     align: center;
 				}
 
+                .box.style2 .image.skills {
+					position: relative;
+					left: 2em;
+					top: 2em;
+					margin: -2em 0 4em -5%;
+				    height: auto;
+                    width: 80%;
+                    align: center;
+		              }
+
                 .box.style2 .image.small {
 					position: relative;
 					left: 2em;
 					top: 2em;
 					margin: -2em 0 4em 3%;
-				    height: 100px;
+				    height: auto;
                     width: 60%;
                     align: center;
-				}
+		              }
 
 		/* Wrappers */
 
