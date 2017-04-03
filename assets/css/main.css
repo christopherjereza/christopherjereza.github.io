@@ -1320,6 +1320,12 @@
 			margin: 0 0 2em 0;
 		}
 
+	.image.smallest {
+            display: block;
+            margin: auto;
+            width: 7%;
+        }
+
         .image.small {
             display: block;
             margin: auto;
