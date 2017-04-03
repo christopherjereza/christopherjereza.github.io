@@ -1858,6 +1858,16 @@
 				    height: 100px;
                     width: 60%;
                     align: center;
+		}
+			
+		.box.style2 .image.smallest {
+					position: relative;
+					left: 2em;
+					top: 2em;
+					margin: -2em 0 4em 3%;
+				    height: 80px;
+                    width: 50%;
+                    align: center;
 				}
 
 		/* Wrappers */
