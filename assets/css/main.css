@@ -1934,7 +1934,9 @@
 			}
 
 				.box.style1 {
-					padding: 3em 2em 3.5em 2em;
+					padding: 1em 1em 1.2em 1em;
+					margin-left: 2%;
+					margin-right: 2%;
 				}
 
 					.box.style1 h3 {
