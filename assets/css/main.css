@@ -1389,8 +1389,11 @@
 
 		.accordion {
 			position:absolute;
+
 		}
-		.accordionTitle,
+		.accordionTitle {
+			font-size:1.1em;
+		}
 		.accordionTitleActive,
 
 		.accordionItem {
@@ -1438,12 +1441,13 @@
 	input[type="reset"],
 	button,
 	.button {
-		background-color: #3AAFA9;
-		color: #999;
+		/*BUTTONCOLOR*/
+		background-color: #565654;
+		/*color: #999;*/
 		/*text-shadow: -1px -1px 0px #181818;*/
-		/*background-image: url("images/bg.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-		background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+		/*background-image: url("images/bg.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));*/
+		/*background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));*/
+		/*background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
 		background-image: url("images/bg.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));*/
 		-moz-transition: background-color .2s ease-in-out;
 		-webkit-transition: background-color .2s ease-in-out;
@@ -1470,8 +1474,8 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #43bff0;
-			color: #fff !important;
+			background-color: #c0dfd9;
+			color: #3b3a36 !important;
 		}
 
 		input[type="button"]:active,
@@ -1713,23 +1717,31 @@
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: #EDEaE5;
+			background-color: #b3c2bf;
 		}
 
 		.wrapper.style2 {
-			background-color: #FEF9C7;
-			text-shadow: 1px 1px 0px #fff;
+			background-color: #e9ece5;
+			/*text-shadow: 1px 1px 0px #fff;*/
 		}
 
 		.wrapper.style3 {
-			background-color: #f4f4f4;
-			text-shadow: 1px 1px 0px #fff;
+			background-color: #b3c2bf;;
+			color: #999;
+		}
+
+		.wrapper.style3 p {
+			color: #3e3e3e;;
+		}
+
+		.wrapper.style3 h4 {
+			font-size: 1.25em;
 		}
 
 		.wrapper.style4 {
 			background-color: #303030;
 			color: #999;
-			text-shadow: -1px -1px 0px #181818;
+			/*text-shadow: -1px -1px 0px #181818;*/
 		}
 
 			.wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
@@ -1755,7 +1767,12 @@
 /* Nav */
 
 	#nav {
-		background-color: #026670;
+		/*NAVCOLOR*/
+		background-color: #565654;
+		/*background-image: url("images/bg.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+		background-image: url("images/bg.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+		background-image: url("images/bg.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+		background-image: url("images/bg.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));*/
 		text-align: center;
 		position: fixed;
 		left: 0;
@@ -1782,7 +1799,7 @@
 		}
 
 			#nav a:hover {
-				color: #fff !important;
+				color: #3b3a36 !important;
 			}
 
 			#nav a.active:before {
@@ -1903,8 +1920,11 @@
 				input[type="reset"].big,
 				button.big,
 				.button.big {
+					display: flex;
+				  justify-content: center;
 					font-size: 1.3em;
 					letter-spacing: -0.025em;
+					text-align: center;
 				}
 
 		/* Box */
@@ -1915,7 +1935,6 @@
 
 				.box.style1 {
 					padding: 3em 2em 3.5em 2em;
-					background-color: #EDEAE5
 				}
 
 					.box.style1 h3 {
@@ -1982,7 +2001,7 @@
 			}
 
 				#nav a:hover {
-					background: #383838;
+					background: #c0dfd9;
 				}
 
 				#nav a:active {
