@@ -1912,7 +1912,8 @@
 			button,
 			.button {
 				padding: 1em 2.35em 1em 2.35em;
-				font-size: 1em;
+				font-size: 1.3em;
+                width: 97%;
 			}
 
 				input[type="button"].big,
@@ -1921,10 +1922,11 @@
 				button.big,
 				.button.big {
 					display: flex;
-				  justify-content: center;
+	                justify-content: center;
 					font-size: 1.3em;
 					letter-spacing: -0.025em;
 					text-align: center;
+                    width: 100%;
 				}
 
 		/* Box */
