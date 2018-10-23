@@ -132,14 +132,15 @@ p {
 
   .iam {
     float: left;
-    width: 30%;
-    margin-left: 10%
+    width: 25%;
+    margin-left: 15%
   }
 
   .what {
     float: right;
-    width: 50%;
-    margin-right: 10%
+    width: 45%;
+    margin-right: 15%;
+    text-align: left;
   }
 
   .intro .intro-text .intro-button {
