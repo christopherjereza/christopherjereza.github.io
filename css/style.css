@@ -129,6 +129,19 @@ p {
     margin-top: 3rem;
     position: absolute;
   }
+
+  .iam {
+    float: left;
+    width: 30%;
+    margin-left: 10%
+  }
+
+  .what {
+    float: right;
+    width: 50%;
+    margin-right: 10%
+  }
+
   .intro .intro-text .intro-button {
     width: 100%;
     left: 0;
