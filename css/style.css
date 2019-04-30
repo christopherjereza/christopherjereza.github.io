@@ -68,7 +68,7 @@ p {
 .section-heading .section-heading-lower {
   display: block;
   font-size: 3rem;
-  font-weight: 100;
+  font-weight: 500;
 }
 
 .bg-faded {
@@ -120,7 +120,7 @@ p {
 
 @media (min-width: 992px) {
   .intro .intro-img {
-    width: 75%;
+    width: 65%;
     float: right;
   }
   .intro .intro-text {
@@ -130,17 +130,17 @@ p {
     position: absolute;
   }
 
-  .iam {
-    float: left;
-    width: 25%;
-    margin-left: 15%
-  }
-
   .what {
-    float: right;
-    width: 45%;
+    width: 60%;
     margin-right: 15%;
     text-align: left;
+    font-family: 'Raleway';
+  }
+
+  .what .list {
+    list-style: none;
+    text-align: center;
+    font-weight: 500;
   }
 
   .intro .intro-text .intro-button {
@@ -148,6 +148,7 @@ p {
     left: 0;
     position: absolute;
     bottom: -2rem;
+    font-family: 'Raleway';
   }
 }
 
@@ -243,9 +244,14 @@ p {
   border-color: rgba(30, 30, 30, 2);
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+.btn-primary:hover {
   background-color: rgba(200, 200, 200, 2);
   border-color: rgba(30, 30, 30, 2);
+  border-width: medium;
+}
+
+.btn-primary:focus, .btn-primary:active {
+  box-shadow: none!important;
 }
 
 .font-weight-light {
